@@ -1,7 +1,6 @@
-
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;  
 }
 body{
     font-family: 'gabarito',sans-serif;
@@ -51,6 +50,7 @@ body{
 position: relative;
 cursor: pointer;
 }
+
 .mylearning-popup{
 position: absolute;
 background-color: white;
@@ -60,9 +60,8 @@ top: 150%;
 padding: 20px;
 right: 0%;
 display: none;
-
 }
-.mylearning:hogver .mylearning-popup{
+.mylearning:hover .mylearning-popup{
 display: block;
 }
 
